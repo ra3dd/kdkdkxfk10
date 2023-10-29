@@ -10,7 +10,7 @@ const header = {
 };
 
 function sendRequest() {
-  request.post('https://discord.com/api/v9/channels/1151173044727984159/messages?limit=5000000000000000000000000000000000000000000000000', {
+  request.post('https://discord.com/api/v9/channels/1031643595331080192/messages?limit=5000000000000000000000000000000000000000000000000', {
     headers: header,
     json: payload
   }, (error, response) => {
